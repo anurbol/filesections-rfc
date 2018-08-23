@@ -136,11 +136,11 @@ some_command_from_library_B
     # [/filesection]
     ```
 
-    2.1.2. The closing tag MUST always be present and MUST have one slash before its name.
+    2.1.2. The closing tag MUST always be present and MUST have exactly one slash before its name.
 
     2.1.3. The tags MUST be written as inline comments.
 
-    _Example for bash script:_
+    _Example for a bash script:_
 
     ```bash
 
@@ -149,7 +149,7 @@ some_command_from_library_B
     # [/filesection]
     ```
 
-    _Example for javascript file:_
+    _Example for a javascript file:_
     ```js
     // [filesection name=javascript_example]
     console.log("i am written in javascript")
