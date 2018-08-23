@@ -33,7 +33,7 @@ The document only describes possible syntax and use cases. Following subjects ar
 ## Problem
 
 ```shell
-# .git/hooks/pre-commit (or any other shared file)
+# .git/hooks/pre-commit (or any other shared file, e.g. .bashrc, .profile, etc.)
 
 # the code added by library A
 some_command_from_library_A
