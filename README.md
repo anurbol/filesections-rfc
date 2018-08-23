@@ -166,7 +166,7 @@ some_command_from_library_B
 
     The "vendor" and "name" attributes' values are *file section identifiers*. They serve to the very purpose of the "file section" concept: identifying and structuring an unstructured file content.
 
-    The <b>"vendor"</b> attirbute may help to recognize the author of the content in a shared file.
+    The <b>"vendor"</b> attribute may help to recognize the author of the content in a shared file.
 
     The <b>"name"</b> attribute can help to identify the purpose and the matter of the content. It can be used in cases including, but not limited to:
     <ul>
