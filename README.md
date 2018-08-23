@@ -63,7 +63,7 @@ The libraries A and B can, with the help of regular expressions, find their data
 * Removing the Data. Other than having to use regular expressions, there is a theoretical possibility of removing excessive parts of the file if one of two things happens: either the developer used non-unique wrapping identifiers, or his regex was not made correctly. The developer has to spend his time to think about these cases to prevent them, which means, not only more precious time is spent, but also, the human factor is still there.
 * Get all parties, who inserted their code, find out if a competing/collaborating library's code already presented in the file.
 * Sort code blocks of different parties (sometimes, in rare cases, may appear to be a useful feature).
-* Probably most important, Navigating the file. It is possible to navigate directories. There are plenty of ways to do that, in any language. However, files can still become very big, containing many discrete concerns. Yet there is no way to get a structured representation of a file. Files and directories are only concepts, they both contain bits of data, and having the last and the main data container (a file) unstructured seems not right.
+* Probably most important, navigating the file. It is possible to navigate directories. There are plenty of ways to do that, in any language. However, files can still become very big, containing many discrete concerns. Yet there is no way to get a structured representation of a file. Files and directories are only concepts, they both contain bits of data, and having the last and the main data container (a file) unstructured seems not right.
 
 ## Solution
 
