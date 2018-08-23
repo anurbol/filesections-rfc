@@ -27,8 +27,8 @@ The document only describes possible syntax and use cases. Following subjects ar
 * easier writing of the Data;
 * easy extracting of the Data without using regular expressions;
 * easy removing of the Data (e.g. when uninstalling software from an OS, when uninstalling dependencies from a package etc.);
-* possibility of as easy navigating in a file contents as in directories.
-* easier analyzing of the shared files (multiple parties can write to them), i.e. it is easy to know which parties have already written their data to the file
+* possibility of as easy navigating in a file contents as in directories;
+* easier analyzing of the shared files (multiple parties can write to them), i.e. it is easy to know which parties have already written their data to the file.
   
 ## Problem
 
