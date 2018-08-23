@@ -33,7 +33,7 @@ The document only describes possible syntax and use cases. Following subjects ar
 ## Problem
 
 ```shell
-# .../.git/hooks/pre-commit (or any other shared file)
+# .git/hooks/pre-commit (or any other shared file)
 
 # the code added by library A
 some_command_from_library_A
@@ -47,7 +47,7 @@ In the code above we see that there are two pieces added by different parties: l
 While it is trivial to write to the file, it is not so when editing or removing previously written data is required. Usually developers go with wrapping the Data with identifying blocks and using regex solution:
 
 ```shell
-# .../.git/hooks/pre-commit
+# .git/hooks/pre-commit
 
 # [A lib's code starts]
 some_command_from_library_A
