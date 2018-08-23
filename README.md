@@ -121,9 +121,13 @@ some_command_from_library_B
 ## Specification
 
 1. **NAMING**
+
     1.1. `[filesection]` and `[/filesection]` constructs are called _**file section tag**_ (an opening and a closing one, respectively). Everything in between an opening and a closing File Section Tags is called a _**"file section"**_. Word "filesection" MAY be used instead of "file section" as well. Word "section" MAY be used instead of "file section" in an appropriate context.
+
 2. **SYNTAX**
+
     2.1. **TAGS**
+
     2.1.1. The starting and closing tags MUST be named "filesection":
 
     ```shell
@@ -133,6 +137,7 @@ some_command_from_library_B
     ```
 
     2.1.2. The closing tag MUST always be present and MUST have one slash before its name.
+
     2.1.3. The tags MUST be written as inline comments.
 
     _Example for bash script:_
@@ -150,7 +155,9 @@ some_command_from_library_B
     console.log("i am written in javascript")
     // [/filesection]
     ```
+
     2.2. **ATTRIBUTES**
+
     2.1.1. Sections MUST have at least one attribute "vendor" or "name".
 
     <!-- markdownlint-disable MD033 -->
@@ -173,7 +180,9 @@ some_command_from_library_B
     <!-- markdownlint-enable MD033 -->
 
     2.1.2. Sections MAY have arbitrary attributes, other than "vendor" and "name".
+
     2.3. **ATTRIBUTE VALUES**
+
     2.3.1. Strings containing spaces MUST be wrapped by single or double quotes:
     ```shell
     # [filesection name=abc info="quotes are allowed"]
