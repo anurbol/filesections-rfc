@@ -170,8 +170,8 @@ some_command_from_library_B
 
     The <b>"name"</b> attribute can help to identify the purpose and the matter of the content. It can be used in cases including, but not limited to:
     <ul>
-    <li>in non-shared files (one vendor writing to the file)</li>
-    <li>inside a nested sections.</li>
+    <li>in non-shared files (one vendor writing to the file);</li>
+    <li>in nested (non-root) sections of shared files.</li>
     </ul>
 
     <br>
